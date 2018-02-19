@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Litmus</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content=" litmus, html, sass, jquery">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="style.css">
+ <style>
+   .hire1{
+     margin-top:0px;
+   }
+   .dropdownm{
+     color: blue;
+   }
+   body{
+background: linear-gradient(223deg, #96df32, #9446c8, #30c0d0, #e4a853);
+background-size: 800% 800%;
+
+
+-webkit-animation: AnimationName 20s ease infinite;
+-moz-animation: AnimationName 20s ease infinite;
+animation: AnimationName 20s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+ </style>
+</head>
+<body>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="">
+            <p>ITM VOCATIONAL UNIVERSITY</p>
+          </a>
+          
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Technovision</span></li>
+            <li><span>Charavuhy</span></li>
+            <li><span>Magnif</span></li>
+            <li><span>Sci-Fun</span></li>
+            <li><span>Kalakriti</span></li>
+            <li><span>Registration</span></li>
+            <li><span>Contact us</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Litmus'18</h1>
+                
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>GET</h3>
+                  <p></p>
+                </a>
+                <a href="#0">
+                  <h3>SET</h3>
+                  <p></p>
+                </a>
+                <a href="#0">
+                  <h3>GO</h3>
+                  <p></p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <!--Technovision -->
+          <li class="l-section section">
+            <div class="work">
+              <h2>Technovision</h2>
+              <div class="work--lockup">
+                  <div class="w3-content w3-display-container">
+
+                      <div class=" mySlides w3-animate-top">
+                      <a onclick="document.getElementById('id01').style.display='block'"><img src="assets/img/1.jpg" style="width:100%;"></a>
+                      <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 ">
+                          Trolltunga, Norway
+                      </div>
+                      </div>
+          
+                      <div class=" mySlides w3-animate-left">
+                      <a onclick="document.getElementById('id02').style.display='block'"><img src="assets/img/1.jpg" style="width:100%;"></a>
+                      <div class="w3-display-bottomright w3-large w3-container w3-padding-16 ">
+                          Northern Lights, Norway
+                      </div>
+                      </div>
+          
+                      <div class=" mySlides w3-animate-right">
+                      <img src="assets/img/1.jpg" style="height:340px;">
+                      <div class="w3-display-topleft w3-large w3-container w3-padding-16 ">
+                          Beautiful Mountains
+                      </div>
+                      </div>
+          
+                      
+                      <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                      <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+          
+                  </div>
+                  <div id="id01" class="w3-modal">
+                      <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                          <header class="w3-container" style="background-color:#E0E0E0; color:black;"> 
+                              <span onclick="document.getElementById('id01').style.display='none'" 
+                              class="w3-button w3-xlarge w3-display-topright" style="background-color:#E0E0E0; color:black;">&times;</span>
+                              <h2 style="margin-top:10px;">Code To Win</h2>
+                          </header>
+      
+                          <div class="w3-bar w3-border-bottom">
+                              <button class="tablink w3-bar-item w3-button" onclick="openEvent(event, 'descc')">Description</button>
+                              <button class="tablink w3-bar-item w3-button" onclick="openEvent(event, 'rulec')">Rules</button>
+                              <button class="tablink w3-bar-item w3-button" onclick="openEvent(event, 'coordic')">Co-ordinater</button>
+                          </div>
+      
+                          <div id="descc" class="w3-container data">
+                              <h1>Description</h1>
+                              <p>London is the most populous city in the United Kingdom, with a metropolitan area of over 9 million inhabitants.</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                          </div>
+                      
+                          <div id="rulec" class="w3-container data">
+                          <h1>Rules</h1>
+                          <p>Paris is the capital of France.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      
+                          <div id="coordic" class="w3-container data">
+                              <h1>Co-rdinater</h1>
+                              <p>Tokyo is the capital of Japan.</p><br>
+                          </div>
+                  
+                      </div>
+                  </div>
+                  <br><br><br>
+                  <form class="work-request">
+                    <input type="submit" value="Registration">
+                  </form>
+              </div>
+            </div>
+          </li>
+          <!--Chakravuhy -->
+          <li class="l-section section">
+              <div class="work">
+                  <h2>Technovision</h2>
+                  <div class="work--lockup">
+                        <form class="work-request">
+                    <input type="submit" value="Registration">
+                    </form>
+                  </div>
+              </div>
+          </li>
+          <!-- Magnif -->
+          <li class="l-section section">
+              <div class="work">
+                  <h2>Technovision</h2>
+                  <div class="work--lockup">
+                        <form class="work-request">
+                    <input type="submit" value="Registration">
+                    </form>
+                  </div>
+              </div>
+          </li>
+          <!--Sci-Fun -->
+          <li class="l-section section">
+              <div class="work">
+                    <h2>Technovision</h2>
+                    <div class="work--lockup">
+                          <form class="work-request">
+                      <input type="submit" value="Registration">
+                      </form>
+                    </div>
+              </div>
+          </li>
+          <!-- Kalakriti -->
+          <li class="l-section section">
+              <div class="work">
+                  <h2>Technovision</h2>
+                  <div class="work--lockup">
+                  </div>
+              </div>
+          </li>
+          <!-- Registration -->
+          <li class="l-section section">
+              <div class="hire">
+                <h2>Registration</h2>
+                <form class="work-request">
+                  <div class="work-request--information">
+                    <div class="information-name">
+                      <input id="name" type="text" spellcheck="false">
+                      <label for="name">Team Leader Name</label>
+                    </div>
+                    <div class="information-email">
+                      <input id="email" type="email" spellcheck="false">
+                      <label for="email">1</label>
+                    </div>
+                  </div>
+                  <div class="work-request--information">
+                      <div class="information-name">
+                        <input id="name" type="text" spellcheck="false">
+                        <label for="name">2</label>
+                      </div>
+                      <div class="information-email">
+                        <input id="email" type="email" spellcheck="false">
+                        <label for="email">3</label>
+                      </div>
+                  </div>
+                  <div class="work-request--information">
+                      <div class="information-name">
+                        <input id="name" type="text" spellcheck="false">
+                        <label for="name">4</label>
+                      </div>
+                      <div class="information-email">
+                        <input id="email" type="email" spellcheck="false">
+                        <label for="email">Contact</label>
+                      </div>
+                  </div>
+                  <div class="work-request--information">
+                      <div class="information-name">
+                        <input id="name" type="text" spellcheck="false">
+                        <label for="name">Email</label>
+                      </div>
+                      <div class="information-email">
+                        <input id="email" type="email" spellcheck="false">
+                        <label for="email">College</label>
+                      </div>
+                  </div>
+                  <div class="work-request--information">
+                      <div class="information-name">
+                        <input id="name" type="text" spellcheck="false">
+                        <label for="name">City</label>
+                      </div>
+                      <div class="information-email">
+                        <input id="email" type="email" spellcheck="false">
+                        <label for="email">College</label>
+                      </div>
+                  </div>
+                  <div class="work-request--information">
+                      <div class="information-name">
+                          <select name="events" class="dropdownm">
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                              <option value="volvo">Code to Win</option>
+                              <option value="saab">Code to Win</option>
+                              <option value="fiat">Code to Win</option>
+                              <option value="audi">Code to Win</option>
+                            </select>
+                      </div>
+                      <div class="information-email">
+                        <input id="email" type="email" spellcheck="false">
+                        <label for="email">College</label>
+                      </div>
+                  </div>
+                  <input type="submit" value="Send Request">
+                </form>
+              </div>
+            </li>
+            <!--Contact Us-->
+            <li class="l-section section">
+                <div class="contact">
+                  <div class="contact--lockup">
+                    <div class="modal">
+                      <div class="modal--information">
+                        <p>Contact Us</p>
+                        <a>Charmi</a>
+                        <a>9624036778</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Technovision</li>
+    <li>Chakravuhy</li>
+    <li>Magnif</li>
+    <li>Sci-Fun</li>
+    <li>Kalakriti</li>
+    <li>Registration</li>
+    <li>Contact Us</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    <script>
+            document.getElementsByClassName("tablink")[0].click();
+            
+            function openEvent(evt, dataget) {
+              var i, x, tablinks;
+              x = document.getElementsByClassName("data");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < x.length; i++) {
+                tablinks[i].classList.remove("w3-light-grey");
+              }
+              document.getElementById(dataget).style.display = "block";
+              evt.currentTarget.classList.add("w3-light-grey");
+            }
+    </script>
+</body>
+</html>
